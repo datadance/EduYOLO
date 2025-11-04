@@ -1,0 +1,12 @@
+# 本项目下的dataset中的数据集仅供大家参考存放格式和调试代码是否能跑通
+# dataset path
+path: /root/code/project/ultralytics/
+train: ./dataset/images/train  # path + train
+val: ./dataset/images/val # path + val
+test: ./dataset/images/test # path + test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['ship']
